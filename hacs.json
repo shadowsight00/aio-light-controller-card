@@ -1,0 +1,7 @@
+{
+  "name": "AIO Light Controller Card",
+  "description": "Stop juggling individual light cards. Control every room's lights, effects, and colors from one beautiful collapsible card.",
+  "render_readme": true,
+  "filename": "dist/aio-light-controller-card.js",
+  "content_in_root": false
+}

@@ -1,0 +1,45 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a bug!
+
+  - type: input
+    id: ha-version
+    attributes:
+      label: Home Assistant Version
+      placeholder: e.g. 2025.6.0
+    validations:
+      required: true
+
+  - type: input
+    id: card-version
+    attributes:
+      label: Card Version
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: What happened? What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Your card configuration (YAML)
+      render: yaml
+      placeholder: Paste your card YAML here
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Browser console errors (if any)
+      render: text
+      placeholder: Open browser dev tools (F12), check the Console tab for errors
