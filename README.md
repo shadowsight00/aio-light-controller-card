@@ -2,7 +2,7 @@
 
 > Stop juggling individual light cards. Control every room's lights, effects, and colors from one beautiful collapsible card.
 
-A custom Lovelace card for Home Assistant that organizes all your lights by room into a single, elegant interface. Features live color gradients on room tiles, auto-detected brightness/temperature/color/effect support per light, collapsible room panels, individual light controls, and a fully built-in visual config editor — no YAML required.
+A custom Lovelace card for Home Assistant that organizes all your lights by room into a single, elegant interface. Features live color gradients on room tiles, auto-detected brightness/temperature/color/effect support per light, collapsible room panels, individual light controls, and a fully built-in visual config editor : no YAML required.
 
 ![AIO Light Controller Card - Room Grid](https://github.com/user-attachments/assets/9b1c3d34-b820-4ad7-92e7-8a3b80d103da)
 
@@ -12,14 +12,14 @@ A custom Lovelace card for Home Assistant that organizes all your lights by room
 
 ## Features
 
-- **Room tiles with live gradients** — each tile reflects the actual color(s) of your lights in real time
-- **Auto-detection** — brightness, color temperature, color, and effects are detected automatically from each light's HA attributes. No manual configuration needed
-- **Collapsible room panels** — tap a room to expand its controls, tap again to collapse
-- **Individual light controls** — per-light brightness, temperature, color sliders and effects, expandable inline
-- **Effects support** — room-level and per-light effects with scrollable overflow for large effect lists
-- **Visual config editor** — full UI editor with icon picker, entity dropdowns, and auto-filled labels. No YAML required
-- **Works with any light brand** — Govee, Philips Hue, IKEA, Sengled, Zigbee, Z-Wave, and more
-- **Switch support** — kitchen or other switch-controlled lights work as simple on/off tiles
+- **Room tiles with live gradients** : each tile reflects the actual color(s) of your lights in real time
+- **Auto-detection** : brightness, color temperature, color, and effects are detected automatically from each light's HA attributes. No manual configuration needed
+- **Collapsible room panels** : tap a room to expand its controls, tap again to collapse
+- **Individual light controls** : per-light brightness, temperature, color sliders and effects, expandable inline
+- **Effects support** : room-level and per-light effects with scrollable overflow for large effect lists
+- **Visual config editor** : full UI editor with icon picker, entity dropdowns, and auto-filled labels. No YAML required
+- **Works with any light brand** : Govee, Philips Hue, IKEA, Sengled, Zigbee, Z-Wave, and more
+- **Switch support** : kitchen or other switch-controlled lights work as simple on/off tiles
 
 ---
 
@@ -52,7 +52,7 @@ A custom Lovelace card for Home Assistant that organizes all your lights by room
 1. Edit your dashboard
 2. Click **Add Card**
 3. Search for **AIO Light Controller**
-4. Use the visual editor to add rooms, pick entities, and configure lights — no YAML needed
+4. Use the visual editor to add rooms, pick entities, and configure lights. No YAML needed
 
 ### YAML Configuration
 
@@ -122,7 +122,7 @@ rooms:
 |--------|------|----------|-------------|
 | `label` | string | yes | Room display name |
 | `icon` | string | yes | MDI icon (e.g. `mdi:sofa`) |
-| `group` | string | yes | Main entity to control — a light group or `switch.*` entity |
+| `group` | string | yes | Main entity to control : a light group or `switch.*` entity |
 | `lights` | list | no | Individual lights to show inside the expanded panel |
 | `effects` | list | no | Override the auto-detected effect list for room-level effects |
 | `effect_targets` | list | no | Entity IDs to send room-level effects to. Defaults to `group` if not set. Use this for Hue or other lights that require effects sent to individual entities |
@@ -146,7 +146,7 @@ Hue lights (especially Play bars and gradient strips) require effects to be sent
 If your `group` entity is a `switch.*`, the card will show a simple on/off toggle with no sliders or effects.
 
 ### Individual Lights Section
-If a room has only one light and it matches the group entity, you don't need to add it to the `lights` list — the room-level sliders already control it. Add lights to the list only when you want per-light control.
+If a room has only one light and it matches the group entity, you don't need to add it to the `lights` list : the room-level sliders already control it. Add lights to the list only when you want per-light control.
 
 ### Effects Auto-Detection
 Effects are read directly from each light entity's `effect_list` attribute in real time. No configuration needed. If no effects appear, make sure the light is turned on and supports effects.
@@ -162,4 +162,4 @@ Effects are read directly from each light entity's `effect_list` attribute in re
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License : see [LICENSE](LICENSE) for details.
