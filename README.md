@@ -4,9 +4,8 @@
 
 A custom Lovelace card for Home Assistant that organizes all your lights by room into a single, elegant interface. Features live color gradients on room tiles, auto-detected brightness/temperature/color/effect support per light, collapsible room panels, individual light controls, and a fully built-in visual config editor : no YAML required.
 
-![AIO Light Controller Card - Room Grid](https://github.com/user-attachments/assets/9b1c3d34-b820-4ad7-92e7-8a3b80d103da)
-
-![AIO Light Controller Card - Expanded Panel](https://github.com/user-attachments/assets/1b603bc7-c118-4b53-bc98-9662bdfadb34)
+![Room grid](https://raw.githubusercontent.com/shadowsight00/aio-light-controller-card/main/assets/screenshot1.png)
+![Expanded panel](https://raw.githubusercontent.com/shadowsight00/aio-light-controller-card/main/assets/screenshot2.png)
 
 ---
 
