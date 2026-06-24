@@ -1,5 +1,5 @@
 {
   "name": "AIO Light Controller Card",
-  "render_readme": true,
-  "filename": "dist/aio-light-controller-card.js"
+  "filename": "dist/aio-light-controller-card.js",
+  "content_in_root": false
 }
