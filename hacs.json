@@ -1,5 +1,5 @@
 {
   "name": "AIO Light Controller Card",
-  "filename": "dist/aio-light-controller-card.js",
-  "content_in_root": false
+  "homeassistant": "2024.1.0",
+  "render_readme": true
 }
