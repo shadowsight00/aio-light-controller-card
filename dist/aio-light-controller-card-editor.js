@@ -236,6 +236,16 @@ class UniversalLightCardEditor extends HTMLElement {
             <input type="number" min="1" max="6" value="${cfg.columns || 3}" data-path="columns" />
           </div>
         </div>
+        <div class="row">
+          <div class="field">
+            <label>Title color</label>
+            <input type="color" value="${cfg.title_color || '#666666'}" data-path="title_color" style="height:38px;padding:2px 4px;cursor:pointer;" />
+          </div>
+          <div class="field">
+            <label>Button label color</label>
+            <input type="color" value="${cfg.label_color || '#ffffff'}" data-path="label_color" style="height:38px;padding:2px 4px;cursor:pointer;" />
+          </div>
+        </div>
         <div class="section-title">Rooms</div>
         <div class="room-list">${roomsHtml}</div>
         <button class="add-btn" id="add-room-btn" style="margin-top:12px">+ Add Room</button>
