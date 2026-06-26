@@ -142,7 +142,7 @@ class UniversalLightCard extends HTMLElement {
   }
 
   _panelHtml() {
-    if (!this._activeRoom) return '';
+    if (this._activeRoom === null) return '';
     const r = this._config.rooms[this._activeRoom];
     if (!r) return '';
 
